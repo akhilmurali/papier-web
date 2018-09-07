@@ -26,3 +26,44 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#components-form-demo-normal-login .login-form {
+  max-width: 300px!important;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
+
+.container{
+  max-width: 400px!important;
+}
+
+.loginButton{
+  display: flex;
+  align-items: center;  
+  background-color: #BB0004!important;
+  border-color: #BB0004!important;
+  padding-left: 30px!important;
+  padding-right: 30px!important;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px !important;
+  margin-top: 40px;
+}
+
+.logo{
+  height: 200px;
+  width: 200px;
+}
+
+.logo-heading{
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 35px;
+  color: #BB0004;
+  text-align: center;
+  margin-top: -40px;
+}
